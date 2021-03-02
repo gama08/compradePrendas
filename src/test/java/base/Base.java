@@ -1,4 +1,3 @@
-
 package base;
 
 import java.util.List;
@@ -10,8 +9,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Base {
-    
-        private RemoteWebDriver remoteDriver;
+
+    private RemoteWebDriver remoteDriver;
     private WebDriverWait tiempoEspera;
 
     public Base(RemoteWebDriver remoteDriver) {
@@ -78,6 +77,6 @@ public class Base {
 
     public void tiempoEspera(int tiempo) throws Exception {
         Thread.sleep(tiempo);
-    } 
-    
+    }
+
 }
